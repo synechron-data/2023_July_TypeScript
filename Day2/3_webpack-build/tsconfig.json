@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "outDir": "output",
+        "module": "ES2015",
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "removeComments": true,
+        "downlevelIteration": true,
+        "strict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "lib": [
+            "DOM",
+            "ES2017"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "assets",
+        "js-demos"
+    ]
+}
